@@ -24,12 +24,11 @@ My Auctions:
 
 Separate section for users to see their active bids, won/lost auctions, and items they’ve listed for sale.
 Create Auction:
-
 Form for users to list items for auction (images, description, starting price, etc.).
 Validate and format data before submission.
-##styling and UI Components
+styling and UI Components
 Use a CSS framework like Tailwind CSS or Material UI for a modern, responsive design, making the app more visually appealing and user-friendly.
-**Final Touches
+Final Touches
 Error Handling and Loading Indicators.
 Testing to ensure reliability and stability.
 Deployment (e.g., deploying the frontend on  Netlify and the backend on render).
