@@ -24,7 +24,7 @@ const bidSlice = createSlice({
 export const placeBid = (id, data) => async (dispatch) => {
   dispatch(bidSlice.actions.bidRequest());
   try {
-    const response = await axios.post(`https://mern-auction-v0p9.onrender.com/api/v1/bid/place/${id}`, data, {
+    const response = await axios.post(`https://backend-1-ls3x.onrender.com/api/v1/bid/place/${id}`, data, {
       withCredentials: true,
       headers: { "Content-Type": "application/json" },
     });
@@ -37,4 +37,4 @@ export const placeBid = (id, data) => async (dispatch) => {
   }
 };
 
-export default bidSlice.reducer;
+export default bidSlice.reducer
