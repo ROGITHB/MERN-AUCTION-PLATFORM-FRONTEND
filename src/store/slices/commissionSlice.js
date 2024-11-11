@@ -24,7 +24,7 @@ export const postCommissionProof = (data) => async (dispatch) => {
   dispatch(commissionSlice.actions.postCommissionProofRequest());
   try {
     const response = await axios.post(
-      "https://backend-1-ls3x.onrender.com/api/v1/commission/proof",
+      "https://backend-gi7x.onrender.com/api/v1/commission/proof",
       data,
       {
         withCredentials: true,
